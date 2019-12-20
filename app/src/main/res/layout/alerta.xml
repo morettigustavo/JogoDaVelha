@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/tvGanhador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O Ganhador foi: "
+        android:textColor="#FF0000"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/ivGanhador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/bolinha" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnReiniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:textSize="20sp"
+            android:text="REINICIAR"
+            android:layout_marginRight="10sp"/>
+
+        <Button
+            android:id="@+id/btnZerar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:text="ZERAR"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CONTINUAR"
+        android:textColor="#FF0000"
+        android:textSize="20sp"/>
+</LinearLayout>
